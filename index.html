@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Semantic Navigation Bar">
+     <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Dennise Website Vision Portfolio</title>
+</head>
+<body>
+    <header>
+        <div id="menu-bars" class="fas fa-bars"></div>
+        <nav aria-label="Main Navigation">
+            <a target="_blank" class="denny" href="https://www.linkedin.com/in/dennise-bello-4bb2a12a5/">Dennise Bello</a>
+            <a href="https://adriellerivera.github.io/Dennise-Bello---Portfolio/">Main Page</a>
+            <a href="https://adriellerivera.github.io/Dennise-Bello---Your-Dynamic-VA--Portfolio/">Your Dynamic VA</a>
+            <a href="https://adriellerivera.github.io/Dennise-Bello---List-of-Content-Portfolio/">List of Contents</a>
+            <a href="#personal-skills">Personal Skills</a>
+            <a href="#vision">Vision</a>
+            <a href="#apps">Apps</a>
+            <a href="#work-experience">Work Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <img class="first-logo" src="images/first-logo.png">
+    <img class="second-logo" src="images/second-logo.png">
+    
+<!--Footer-->
+<footer>    
+<p> &#169; All rights reserved to <a href="https://www.linkedin.com/in/dennise-bello-4bb2a12a5/" target="_blank">Dennise Bello</a> 2024 &trade;</p>
+<p>coded by <a href="https://www.linkedin.com/in/adrielle-rivera-355ab3290/" target="_blank">Adrielle Rivera</a></p>
+</footer>
+
+        <script>
+            let menu = document.querySelector('#menu-bars');
+            let header = document.querySelector('header');
+            
+            menu.onclick = () => {
+                menu.classList.toggle('fa-times');
+                header.classList.toggle('active');
+            }
+
+        </script>
+
+</body>
+</html>
